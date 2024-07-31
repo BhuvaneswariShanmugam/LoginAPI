@@ -12,7 +12,6 @@ import com.jwt.loginapi.repository.UserRepository;
 import com.jwt.loginapi.util.Constances;
 
 
-
 @Service
 public class AuthenticationService implements UserDetailsService{
 	
@@ -43,7 +42,6 @@ public class AuthenticationService implements UserDetailsService{
 	}
 	
 	
-	
 
 
 //	public UserDTO getUserDetail(String userName) {
@@ -60,4 +58,3 @@ public class AuthenticationService implements UserDetailsService{
 	
 	
 }
-

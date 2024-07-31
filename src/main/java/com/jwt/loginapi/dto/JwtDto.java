@@ -1,5 +1,22 @@
 package com.jwt.loginapi.dto;
 
-public record JwtDto( String accessToken) {
+import lombok.Data;
+
+@Data
+public class JwtDTO {
+	
+	String accessToken;
+	String refreshToken;
+	
+	
+	public JwtDTO(String accessToken, String refreshToken) {
+		super();
+		this.accessToken = accessToken;
+		this.refreshToken = refreshToken;
+	}
+	
+	
+	
+	
 
 }
